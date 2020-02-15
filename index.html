@@ -57,7 +57,7 @@
 
 <h3 align="center">
     Emon Wang <br>
-    翻译版本 1.0，2020-2-13
+    翻译版本 1.0，2020-2-15
 </h3>
 <!-- ------------------------------- -->
 <hr width="50%">
@@ -86,6 +86,8 @@
 <h2 id="credit"> 声明 </h2>
 
 <p><a href="http://david.tribble.com/text/goto.html">原文</a> 除引用信件部分外由 David R. Tribble 撰写，引用的信件由 Dijkstra 撰写，全文由 王一蒙(Emon Wang) 翻译为中文。<a href="#copyright">版权声明</a> 见文章底部。 </p>
+
+<p>译者尽力翻译，但水平有限，难免有疏漏。如果您发现任何问题或者有改进意见，请在项目的 <a href="https://github.com/emon100/goto-translation/issues">issue 页面</a> 提一个issue。非常期待您的宝贵意见。</p>
 
 
     <!-- ----------------------------------------------------------------------- -->
@@ -2117,7 +2119,6 @@ void write3(Resource dest, Item[] data)
 
     <a name="the-tao-of-goto"></a>
     <h2> Goto 之道 </h2>
-flag=-1;
     <p>显然，循环逃逸机制和异常处理语句使代码更具可读性也更高效。当然，这种流控制机制实际上只是变相的 goto 语句，是在底层使用机器码的 jump 指令实现的。 但它们不会破坏或混淆程序的执行状态。因此，根据 Dijkstra 的“可以确定地跟踪程序执行”的行为准则来判断的话，高级语言可以接纳它们这些控制流机制。
     </p>
 
